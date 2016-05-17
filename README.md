@@ -4,7 +4,7 @@
 
 * Explain the following piece of code correctly. We declared a new variable called favoriteCharacter and gave it a value of Jon Snow.
 
-```Swift
+```swift
 var favoriteCharacter = "Jon Snow"
 ```
 
