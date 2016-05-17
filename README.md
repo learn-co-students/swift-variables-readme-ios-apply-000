@@ -3,6 +3,7 @@
 ## Learning Objectives
 
 * Explain the following piece of code correctly. We declared a new variable called favoriteCharacter and gave it a value of Jon Snow.
+
 ```Swift
 var favoriteCharacter = "Jon Snow"
 ```
