@@ -33,7 +33,7 @@ You can refer to this variable using its name. While the variable's value is ini
 favoriteCharacter = "Tyrion Lannister"
 ```
 
-From here on out, `favoriteCharacter` will have the value "Tyrion Lannister", instead of "Jon Snow".
+From here on out, `favoriteCharacter` will have the value "Tyrion Lannister", instead of "Jon Snow". Notice, however, that you didn't have to put `var` in front of `favoriteCharacter` when you changed the value. This is because you have already declared `favoriteCharacter` to be a variable, and so Swift knows that it exists. You're not _declaring_ a variable here; you're just changing its value to something else.
 
 In Swift, every variable has a _type_. The type tells you the kind of value that variable refers to. In the above example, the type of the variable is a `String`. Other types include `Int` and `Double`. You will learn about many more of Swift's data types as you work through these lessons. For now, don't worry much about the type; just be aware that every variable has a type.
 
