@@ -35,9 +35,9 @@ favoriteCharacter = "Tyrion Lannister"
 
 From here on out, `favoriteCharacter` will have the value "Tyrion Lannister", instead of "Jon Snow".
 
-In Swift, every variable has a _type_. The type tells you the kind of value that variable refers to. In the above example, the type of the variable is a `String`. Other types include `Int` and `Float`. You will learn about many more of Swift's data types as you work through these lessons. For now, don't worry much about the type; just be aware that every variable has a type.
+In Swift, every variable has a _type_. The type tells you the kind of value that variable refers to. In the above example, the type of the variable is a `String`. Other types include `Int` and `Double`. You will learn about many more of Swift's data types as you work through these lessons. For now, don't worry much about the type; just be aware that every variable has a type.
 
-The type of a variable is important, because it can only hold values of the same type, even if you change the value. `favoriteCharacter` must always be a string—it cannot change to an `Int` or a `Float`.
+The type of a variable is important, because it can only hold values of the same type, even if you change the value. `favoriteCharacter` must always be a string—it cannot change to an `Int` or a `Double`.
 
 Take a look at the [playground](Variables.playground) for this lesson. You can see how a variable in Swift is declared, and how you can change the value. Try it for yourself! Change `favoriteCharacter` to _your_ favorite character and see what happens.
 
