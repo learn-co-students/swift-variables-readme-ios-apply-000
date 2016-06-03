@@ -2,10 +2,9 @@
 
 ## Learning Objectives
 
-
-
 * Explain the following piece of code correctly. We declared a new variable called favoriteCharacter and gave it a value of Jon Snow.
-```Swift
+
+```swift
 var favoriteCharacter = "Jon Snow"
 ```
 
@@ -18,25 +17,62 @@ var favoriteCharacter = "Jon Snow"
 ## What the Student Already Knows  
 Nothing 🖖🏼 - this will be the first reading.
 
-## Outline / Notes
+## Variables
 
-* Create a narrative around something that might be familiar to the student. In the bullet points below we use Game of Thrones to connect something they know to the abstract idea of variables. If you prefer to use a different analogy, definitely go for it. Always think about it in terms of story. You can do that with asking a question or presenting a problem around what the student already knows. Be funny! Be accessible! Use gifs (if you like).
-* Instead of having to repetitively type "Jon Snow" over and over again in our application which represents our favorite Game of Thrones character, we can store this in a variable.
-* How do we then create a variable? It would be helpful to the student if there was a playground file along with this readme where the student can see the code and code along to what it is you're doing.
-* I like challenging the student a little here after you've shown them how to create a variable. In the playground file, have comments as follows:
-```Swift
-// Create another variable named favoriteLannister with the value "Tyrion Lannister"
-// Create another variable named favoriteMovie with the value of your choosing (whichever your favorite movie is).
-// Create another variable that represents your favorite color. What do you think the name of the variable should be?  
-```  
-  
-* Below each comment, the student should type out the code. I want them to begin building a habit where they read the code presented to them AND then type it out in a playground file, not copy/pasting anything.
-* Teaching them that they can indeed change the value of a variable if they want. Teach them in a way where you first phrase it as a question.. "What if we decide after a certain episode that "Jon Snow" is no longer our favorite Stark? Can we change our favoriteStark variable?
-* Similiar to how we discuss variables above, take the same approach with constants. 
-* Have the student see what it looks like when they try to change the value of a constant.
-* Make them try to change the name of a constant in the playground file.
-* Wrap up the difference between let and var
+_Variables_ are the fundamental building block of any program. A variable associates a _name_ with a _value_. That value can be almost anything: a number, a string (or sequence of characters), or even an object (which you will learn about in a future lesson). For instance, the following is a variable declaration in Swift:
 
+```
+var favoriteCharacter = "Jon Snow"
+```
 
+In the above example, a variable is declared using the `var` keyword. The name of the variable is `favoriteCharacter`. This variable has the value "Jon Snow". "Jon Snow" is a _string_, or sequence of characters enclosed in double quotation marks.
+
+You can refer to this variable using its name. While the variable's value is initially "Jon Snow", it can change over time. For example, you could change it to "Tyrion Lannister":
+
+```
+favoriteCharacter = "Tyrion Lannister"
+```
+
+From here on out, `favoriteCharacter` will have the value "Tyrion Lannister", instead of "Jon Snow". Notice, however, that you didn't have to put `var` in front of `favoriteCharacter` when you changed the value. This is because you have already declared `favoriteCharacter` to be a variable, and so Swift knows that it exists. You're not _declaring_ a variable here; you're just changing its value to something else.
+
+In Swift, every variable has a _type_. The type tells you the kind of value that variable refers to. In the above example, the type of the variable is a `String`. Other types include `Int` and `Double`. You will learn about many more of Swift's data types as you work through these lessons. For now, don't worry much about the type; just be aware that every variable has a type.
+
+The type of a variable is important, because it can only hold values of the same type, even if you change the value. `favoriteCharacter` must always be a string—it cannot change to an `Int` or a `Double`. Remember when you changed `favoriteCharacter` to be "Tyrion Lannister" instead of "Jon Snow"? You were able to do that because `favoriteCharacter` is a `String` and both of those are `String`s. What happens if you tried to change `favoriteCharacter` to a number?
+
+```swift
+favoriteCharacter = 76
+```
+
+If you tried to do that, Swift would've spit out an error telling you that you cannot assign a variable of type `String` to an `Int`, and your program would not run.
+
+Take a look at the [playground](Variables.playground) for this lesson. You can see how a variable in Swift is declared, and how you can change the value. Try it for yourself! Change `favoriteCharacter` to _your_ favorite character and see what happens.
+
+## Constants
+
+Swift offers a second way to associate a name with a value: a _constant_. Like a variable, a constant consists of a name and an associated value. Unlike a variable, however, the value of a constant cannot change over time; once you _initialize_ a constant (declare it and set it to a value), you cannot change it. Ever.
+
+A Swift constant is declared like a variable, except it uses the keyword `let` instead of `var`:
+
+```
+let ultimateFavoriteCharacter = "Arya Stark"
+```
+
+From here on out, `ultimateFavoriteCharacter` will always have the value "Arya Stark". If you try to change it:
+
+```
+ultimateFavoriteCharacter = "Daenerys Targaryen"
+```
+
+You will get an error from the Swift compiler. Check out the [playground](Variables.playground) to see this for yourself. You will see an error issued on line 10.
+
+Like variables, constants also have a type. Since you cannot change the value of a constant, you won't have to worry about changing the value to a different type. However, the type of constants still matters, since it dictates how you can interact with and use the constant, as you'll learn as you progress through your Swift studies.
+
+## Using Variables and Constants
+
+Why use variables and constants in your program? Both variables and constants are useful when you want to associate a name that never changes with a value that may change. You can then refer to that variable by a constant name. As shown in the playground associated with this lesson, once you associate the name `favoriteCharacter` with a value ("Jon Snow", for example), you can use `favoriteCharacter` to refer to that value for the rest of the program, such as when you pass it to functions like `print()`. (You will learn more about functions in a future lesson.)
+
+## Choosing Between Variables and Constants
+
+When should you use a variable, and when should you use a constant? A variable should be used when a value might change during the course of a single run of a program. For example, when you start running a program, your favorite character may be Jon Snow, but perhaps by the end of the program's run, you may want to switch your allegiance to another character (like when you changed the value of `favoriteCharacter` to "Tyrion Lannister"). A constant, on the other hand, is a way to bind a name to a value that won't change. This lets you refer to that value throughout your program where you are certain without a doubt that the value will _never_ change.
 
 <a href='https://learn.co/lessons/Variables' data-visibility='hidden'>View this lesson on Learn.co</a>
