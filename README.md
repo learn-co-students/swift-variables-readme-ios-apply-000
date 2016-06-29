@@ -2,20 +2,11 @@
 
 ## Learning Objectives
 
-* Explain the following piece of code correctly. We declared a new variable called favoriteCharacter and gave it a value of Jon Snow.
-
-```swift
-var favoriteCharacter = "Jon Snow"
-```
-
 * Create a variable in a playground file.
 * Change the value of a variable to another value (of the same type).
 * Explain how a constant is used and why it differs from a variable. (let/var)
 * Recognize the error produced when you attempt to change the value of a constant to something else.
 * Explain why we have both options and how best we can make the choice between using a variable/constant.  
-
-## What the Student Already Knows  
-Nothing 🖖🏼 - this will be the first reading.
 
 ## Variables
 
