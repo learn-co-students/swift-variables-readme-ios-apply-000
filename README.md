@@ -1,5 +1,9 @@
 # Variables & Constants
 
+![Leo](http://i.imgur.com/GAoVBVG.jpg?1)
+
+> Simplicity is the ultimate sophistication. ~[Leonardo da Vinci](https://en.wikipedia.org/wiki/Leonardo_da_Vinci)
+
 ## Learning Objectives
 
 * Create a variable in a playground file.
@@ -12,7 +16,7 @@
 
 _Variables_ are the fundamental building block of any program. A variable associates a _name_ with a _value_. That value can be almost anything: a number, a string (or sequence of characters), or even an object (which you will learn about in a future lesson). For instance, the following is a variable declaration in Swift:
 
-```
+```swift
 var favoriteCharacter = "Jon Snow"
 ```
 
@@ -20,7 +24,7 @@ In the above example, a variable is declared using the `var` keyword. The name o
 
 You can refer to this variable using its name. While the variable's value is initially "Jon Snow", it can change over time. For example, you could change it to "Tyrion Lannister":
 
-```
+```swift
 favoriteCharacter = "Tyrion Lannister"
 ```
 
@@ -44,13 +48,13 @@ Swift offers a second way to associate a name with a value: a _constant_. Like a
 
 A Swift constant is declared like a variable, except it uses the keyword `let` instead of `var`:
 
-```
+```swift
 let ultimateFavoriteCharacter = "Arya Stark"
 ```
 
 From here on out, `ultimateFavoriteCharacter` will always have the value "Arya Stark". If you try to change it:
 
-```
+```swift
 ultimateFavoriteCharacter = "Daenerys Targaryen"
 ```
 
