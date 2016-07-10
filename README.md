@@ -58,7 +58,7 @@ From here on out, `ultimateFavoriteCharacter` will always have the value "Arya S
 ultimateFavoriteCharacter = "Daenerys Targaryen"
 ```
 
-You will get an error from the Swift compiler. Check out the [playground](Variables.playground) to see this for yourself. You will see an error issued on line 10.
+You will get an error from the Swift compiler. Check out the [playground](Variables.playground) to see this for yourself. You will see an error issued on line 12.
 
 Like variables, constants also have a type. Since you cannot change the value of a constant, you won't have to worry about changing the value to a different type. However, the type of constants still matters, since it dictates how you can interact with and use the constant, as you'll learn as you progress through your Swift studies.
 
