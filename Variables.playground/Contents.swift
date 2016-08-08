@@ -4,9 +4,11 @@ print(favoriteCharacter)
 favoriteCharacter = "Tyrion Lannister"
 print(favoriteCharacter)
 
-favoriteCharacter = 76
+favoriteCharacter = "Hodor"
+print(favoriteCharacter)
 
 let ultimateFavoriteCharacter = "Arya Stark"
 print(ultimateFavoriteCharacter)
 
-ultimateFavoriteCharacter = "Daenerys Targaryen"
+// Can't reassign ultimateFavoriteCharacter because it is a constant. Besides, Arya is the best.
+// ultimateFavoriteCharacter = "Daenerys Targaryen"
