@@ -4,13 +4,17 @@
 
 > Simplicity is the ultimate sophistication. —[Leonardo da Vinci](https://en.wikipedia.org/wiki/Leonardo_da_Vinci)
 
+## Overview
+
+In ths lesson we'll define, create, and explain the differences between variables and constants. 
+
 ## Learning Objectives
 
-* Create a variable in a playground file.
-* Change the value of a variable to another value (of the same type).
-* Explain how a constant is used and why it differs from a variable. (let/var)
-* Recognize the error produced when you attempt to change the value of a constant to something else.
-* Explain why we have both options and how best we can make the choice between using a variable/constant.  
+* Create a variable in a playground file
+* Change the value of a variable to another value of the same type
+* Explain how a constant is used and why it differs from a variable
+* Recognize the error produced when attempting to change the value of a constant
+* Distinguish when to use a variable and when to use a constant
 
 ## Variables
 
@@ -69,7 +73,5 @@ Why use variables and constants in your program? Both variables and constants ar
 ## Choosing Between Variables and Constants
 
 When should you use a variable, and when should you use a constant? A variable should be used when a value might change during the course of a single run of a program. For example, when you start running a program, your favorite character may be Jon Snow, but perhaps by the end of the program's run, you may want to switch your allegiance to another character (like when you changed the value of `favoriteCharacter` to "Tyrion Lannister"). A constant, on the other hand, is a way to bind a name to a value that won't change. This lets you refer to that value throughout your program where you are certain without a doubt that the value will _never_ change.
-
-<a href='https://learn.co/lessons/Variables' data-visibility='hidden'>View this lesson on Learn.co</a>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-variables-readme'>Variables and Constants</a> on Learn.co and start learning to code for free.</p>
