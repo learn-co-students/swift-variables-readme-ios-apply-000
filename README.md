@@ -6,7 +6,7 @@
 
 ## Overview
 
-In ths lesson we'll define, create, and explain the differences between variables and constants. 
+In this lesson we'll define, create, and explain the differences between variables and constants. 
 
 ## Learning Objectives
 
