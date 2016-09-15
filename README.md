@@ -44,7 +44,6 @@ favoriteCharacter = 76
 
 If you tried to do that, Swift would've spit out an error telling you that you cannot assign a variable of type `String` to an `Int`, and your program would not run.
 
-Take a look at the [playground](https://github.com/learn-co-curriculum/swift-variables-readme/blob/master/Variables.playground/Contents.swift) for this lesson. You can see how a variable in Swift is declared, and how you can change the value. Try it for yourself! Change `favoriteCharacter` to _your_ favorite character and see what happens.
 
 ## Constants
 
@@ -62,7 +61,6 @@ From here on out, `ultimateFavoriteCharacter` will always have the value "Arya S
 ultimateFavoriteCharacter = "Daenerys Targaryen"
 ```
 
-You will get an error from the Swift compiler. Check out the [playground](Variables.playground) to see this for yourself. You will see an error issued on line 12.
 
 Like variables, constants also have a type. Since you cannot change the value of a constant, you won't have to worry about changing the value to a different type. However, the type of constants still matters, since it dictates how you can interact with and use the constant, as you'll learn as you progress through your Swift studies.
 
