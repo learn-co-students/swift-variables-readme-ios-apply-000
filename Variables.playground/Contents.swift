@@ -11,4 +11,3 @@ print(ultimateFavoriteCharacter)
 
 ultimateFavoriteCharacter = "Arya Stark"
 
-git status
