@@ -10,3 +10,9 @@ let ultimateFavoriteCharacter = "Arya Stark"
 print(ultimateFavoriteCharacter)
 
 ultimateFavoriteCharacter = "Daenerys Targaryen"
+
+//Demonstrate that you cannot assign a String to an Int
+
+var bestSeason = 3
+
+bestSeason = "two"
