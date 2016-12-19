@@ -16,6 +16,11 @@ In this lesson we'll define, create, and explain the differences between variabl
 * Recognize the error produced when attempting to change the value of a constant
 * Distinguish when to use a variable and when to use a constant
 
+## Variables and Constants Video
+
+[![](http://img.youtube.com/vi/Ak7qHcxpaSM/0.jpg)](https://www.youtube.com/watch?v=Ak7qHcxpaSM "Variables")
+
+
 ## Variables
 
 _Variables_ are the fundamental building block of any program. A variable associates a _name_ with a _value_. That value can be almost anything: a number, a string (or sequence of characters), or even an object (which you will learn about in a future lesson). For instance, the following is a variable declaration in Swift:
