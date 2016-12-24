@@ -4,9 +4,29 @@ print(favoriteCharacter)
 favoriteCharacter = "Tyrion Lannister"
 print(favoriteCharacter)
 
-favoriteCharacter = 76
+print(favoriteCharacter)
 
 let ultimateFavoriteCharacter = "Arya Stark"
 print(ultimateFavoriteCharacter)
 
-ultimateFavoriteCharacter = "Daenerys Targaryen"
+var nameOfPerson = "Jim"
+
+print(nameOfPerson)
+
+let favoriteColor = "Green"
+
+print(favoriteColor)
+
+let question = "What's your favorite food?"
+
+var answer = "Pasta"
+
+let favoriteArtist = "Cher"
+
+let leastFavoriteArtist: String = "Not Cher"
+
+print(favoriteArtist)
+print(leastFavoriteArtist)
+
+print("Hello to you")
+print(555)
