@@ -1,12 +1,12 @@
-var favoriteCharacter = "Jon Snow"
-print(favoriteCharacter)
+var name = "Arfhan"
+print(name)
 
-favoriteCharacter = "Tyrion Lannister"
-print(favoriteCharacter)
+name = "Ahmar"
+print(name)
 
-favoriteCharacter = 76
+name = 23
 
-let ultimateFavoriteCharacter = "Arya Stark"
-print(ultimateFavoriteCharacter)
+let names = "Ajay"
+print(names)
 
-ultimateFavoriteCharacter = "Daenerys Targaryen"
+let names = "SAm"
