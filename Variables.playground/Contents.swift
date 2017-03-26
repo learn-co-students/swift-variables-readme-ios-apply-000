@@ -4,9 +4,15 @@ print(name)
 name = "Ahmar"
 print(name)
 
-name = 23
+
 
 let names = "Ajay"
 print(names)
 
-let names = "SAm"
+
+var favoriteWord = "Love"
+var favoriteColor = "Black"
+var favoriteMusician = "Arijit"
+
+print(favoriteWord)
+print("My fav word is \(favoriteWord)")
