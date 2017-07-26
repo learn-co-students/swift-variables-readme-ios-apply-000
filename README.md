@@ -1,27 +1,26 @@
 # Variables & Constants
 
+![Leo](http://i.imgur.com/GAoVBVG.jpg?1)
+
+> Simplicity is the ultimate sophistication. —[Leonardo da Vinci](https://en.wikipedia.org/wiki/Leonardo_da_Vinci)
+
+## Overview
+
+In this lesson we'll define, create, and explain the differences between variables and constants. 
+
 ## Learning Objectives
 
-* Explain the following piece of code correctly. We declared a new variable called favoriteCharacter and gave it a value of Jon Snow.
-
-```swift
-var favoriteCharacter = "Jon Snow"
-```
-
-* Create a variable in a playground file.
-* Change the value of a variable to another value (of the same type).
-* Explain how a constant is used and why it differs from a variable. (let/var)
-* Recognize the error produced when you attempt to change the value of a constant to something else.
-* Explain why we have both options and how best we can make the choice between using a variable/constant.  
-
-## What the Student Already Knows  
-Nothing 🖖🏼 - this will be the first reading.
+* Create a variable in a playground file
+* Change the value of a variable to another value of the same type
+* Explain how a constant is used and why it differs from a variable
+* Recognize the error produced when attempting to change the value of a constant
+* Distinguish when to use a variable and when to use a constant
 
 ## Variables
 
 _Variables_ are the fundamental building block of any program. A variable associates a _name_ with a _value_. That value can be almost anything: a number, a string (or sequence of characters), or even an object (which you will learn about in a future lesson). For instance, the following is a variable declaration in Swift:
 
-```
+```swift
 var favoriteCharacter = "Jon Snow"
 ```
 
@@ -29,7 +28,7 @@ In the above example, a variable is declared using the `var` keyword. The name o
 
 You can refer to this variable using its name. While the variable's value is initially "Jon Snow", it can change over time. For example, you could change it to "Tyrion Lannister":
 
-```
+```swift
 favoriteCharacter = "Tyrion Lannister"
 ```
 
@@ -45,7 +44,6 @@ favoriteCharacter = 76
 
 If you tried to do that, Swift would've spit out an error telling you that you cannot assign a variable of type `String` to an `Int`, and your program would not run.
 
-Take a look at the [playground](Variables.playground) for this lesson. You can see how a variable in Swift is declared, and how you can change the value. Try it for yourself! Change `favoriteCharacter` to _your_ favorite character and see what happens.
 
 ## Constants
 
@@ -53,17 +51,16 @@ Swift offers a second way to associate a name with a value: a _constant_. Like a
 
 A Swift constant is declared like a variable, except it uses the keyword `let` instead of `var`:
 
-```
+```swift
 let ultimateFavoriteCharacter = "Arya Stark"
 ```
 
 From here on out, `ultimateFavoriteCharacter` will always have the value "Arya Stark". If you try to change it:
 
-```
+```swift
 ultimateFavoriteCharacter = "Daenerys Targaryen"
 ```
 
-You will get an error from the Swift compiler. Check out the [playground](Variables.playground) to see this for yourself. You will see an error issued on line 10.
 
 Like variables, constants also have a type. Since you cannot change the value of a constant, you won't have to worry about changing the value to a different type. However, the type of constants still matters, since it dictates how you can interact with and use the constant, as you'll learn as you progress through your Swift studies.
 
@@ -75,4 +72,4 @@ Why use variables and constants in your program? Both variables and constants ar
 
 When should you use a variable, and when should you use a constant? A variable should be used when a value might change during the course of a single run of a program. For example, when you start running a program, your favorite character may be Jon Snow, but perhaps by the end of the program's run, you may want to switch your allegiance to another character (like when you changed the value of `favoriteCharacter` to "Tyrion Lannister"). A constant, on the other hand, is a way to bind a name to a value that won't change. This lets you refer to that value throughout your program where you are certain without a doubt that the value will _never_ change.
 
-<a href='https://learn.co/lessons/Variables' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-variables-readme'>Variables and Constants</a> on Learn.co and start learning to code for free.</p>
