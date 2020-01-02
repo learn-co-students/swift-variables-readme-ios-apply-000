@@ -4,9 +4,11 @@ print(favoriteCharacter)
 favoriteCharacter = "Tyrion Lannister"
 print(favoriteCharacter)
 
-favoriteCharacter = 76
+//Error: Can't assign int to string type
+//favoriteCharacter = 76
 
 let ultimateFavoriteCharacter = "Arya Stark"
 print(ultimateFavoriteCharacter)
 
-ultimateFavoriteCharacter = "Daenerys Targaryen"
+// Error: Can't change value of Constant variable
+//ultimateFavoriteCharacter = "Daenerys Targaryen"
